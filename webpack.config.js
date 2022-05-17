@@ -34,8 +34,7 @@ module.exports = {
                 'css-loader', // interpretar
                 'sass-loader',
             ]
-        },
-        {
+        }, {
             test: /\.(png|jpe?g|gif)$/i,
             use: 'file-loader'
         }]
